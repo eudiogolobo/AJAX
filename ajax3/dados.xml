@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lista>
+    <cliente>
+        <nome>Carlos Miguel</nome>
+        <contato>12345678</contato>
+    </cliente>
+
+    <cliente>
+        <nome>Diogo Lobo</nome>
+        <contato>12345678</contato>
+    </cliente>
+
+    <cliente>
+        <nome>Vitor Lobo</nome>
+        <contato>12345678</contato>
+    </cliente>
+
+
+</lista>
