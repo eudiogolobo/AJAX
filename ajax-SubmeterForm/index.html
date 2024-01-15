@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+<body>
+    <!-- formulario -->
+    <form action="tratar.php" method="post" id="jeito">
+        <div><input type="text" name="name" placeholder="Nome..." ></div>
+        <br>
+        <div><input type="email" name="email" placeholder="E-mail..." ></div>
+        <br>
+        <textarea name="text_mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+        <br>
+        <button onclick="submeterFomulario('jeito')">Enviar</button>
+    </form>
+
+    <!-- javaScript-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="js.js"></script>
+</body>
+</html>
